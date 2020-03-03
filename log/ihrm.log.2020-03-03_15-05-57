@@ -1,0 +1,11 @@
+2020-03-03 15:05:56,759 INFO [root] [__init__.py(<module>:14)] - 测试日志是否能够正常打印
+2020-03-03 15:05:56,998 INFO [root] [employe_params.py(test01_login_success:25)] - 员工模块的登陆结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '1cf63a5f-cf55-442f-9d76-d3a8ef91cac7'}
+2020-03-03 15:05:56,999 INFO [root] [employe_params.py(test01_login_success:28)] - 取出的令牌为：Bearer 1cf63a5f-cf55-442f-9d76-d3a8ef91cac7
+2020-03-03 15:05:56,999 INFO [root] [employe_params.py(test01_login_success:34)] - 员工模块请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 1cf63a5f-cf55-442f-9d76-d3a8ef91cac7'}
+2020-03-03 15:05:57,127 INFO [root] [employe_params.py(test02_add_emp:41)] - 添加员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234736758771765248'}}
+2020-03-03 15:05:57,128 INFO [root] [employe_params.py(test02_add_emp:48)] - 保存的员工ID为：1234736758771765248
+2020-03-03 15:05:57,247 INFO [root] [employe_params.py(test03_query_emp:53)] - 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234736758771765248', 'mobile': '18890000006query_emp_data', 'username': '榛果supperstar1105', 'password': '7cb4c98b432fede35d43d9734d67cd78', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1205026005332635648', 'timeOfEntry': '2020-02-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-02-03T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '酱油2部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-03 15:05:57,376 INFO [root] [employe_params.py(test04_modify_emp:61)] - 修改员工结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234736758771765248'}}
+2020-03-03 15:05:57,610 INFO [root] [employe_params.py(test04_modify_emp:69)] - 要查询的SQL语句为：select username from bs_user where id = 1234736758771765248;
+2020-03-03 15:05:57,675 INFO [root] [employe_params.py(test04_modify_emp:74)] - SQL查询出来的结果为：('new_tom',)
+2020-03-03 15:05:57,800 INFO [root] [employe_params.py(test05_delete_emp:86)] - 删除员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
