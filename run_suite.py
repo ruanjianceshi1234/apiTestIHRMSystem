@@ -12,8 +12,8 @@ suite.addTest(unittest.makeSuite(TestLogin))
 suite.addTest(unittest.makeSuite(TestEmployee))
 
 # 4.定义报告的名称
-report_path = os.path.dirname(os.path.abspath(__file__)) + "/report/ihrm{}.html".format(time.strftime("%Y%m%d %H%M%S"))
-
+# report_path = os.path.dirname(os.path.abspath(__file__)) + "/report/ihrm{}.html".format(time.strftime("%Y%m%d %H%M%S"))
+report_path = os.path.dirname(os.path.abspath(__file__)) + "/report/ihrm.html"
 # 5.打开报告
 with open(report_path, mode="wb") as f:
     # 初始化HTMLTestRunner_PY3
